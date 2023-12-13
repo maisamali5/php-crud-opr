@@ -23,7 +23,7 @@
         <header><tr><td>ID</td><td>Name</td><td>class</td></tr></header>
         <tbody> 
         <?php
-                    $con=mysqli_connect("localhost:3306","root","","std_db");
+                    $con=mysqli_connect("localhost:3306","root","","db");
                     if(!$con){
                         die("Connection Failed:".mysqli_connect_error()); 
                     }
